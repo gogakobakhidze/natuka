@@ -32,7 +32,7 @@ class PortfolioController extends Controller
                             ->join('text_content', 'text_content.ID', '=', 'portfolio.Name')
                             ->where('Category', $category)
                             ->skip(0)
-                            ->take(20)
+                            ->take(2)
                             ->get();
                            
         return Inertia::render('Portfolio/List', [

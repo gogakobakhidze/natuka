@@ -2,7 +2,7 @@
   import { Head } from '@inertiajs/vue3'
   import { Link } from '@inertiajs/vue3'
   import Menu from '../../Layout/Menu.vue'
-  import Pagination from '../../Layout/Pagination.vue'
+  //import Pagination from '../../Layout/Pagination.vue'
 
   defineProps({ data: Object })
   let locale = localStorage.getItem('langCode')

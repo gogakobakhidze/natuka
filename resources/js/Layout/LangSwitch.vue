@@ -35,7 +35,7 @@ export default {
             this.responsiveSettingsLanguage = false
 
             try { 
-                window.location = window.location.toString().replace('/'+localStorage.langCode+'/', '/'+locale+'/')   
+                window.location = window.location.toString().replace('/'+localStorage.langCode, '/'+locale)   
             } catch(e) {  
                 console.log(e)
             }           
